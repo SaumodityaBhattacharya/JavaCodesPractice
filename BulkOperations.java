@@ -15,5 +15,10 @@ class Main {
         // Case 2
         Inventory.removeAll(Defective);
         System.out.println(Inventory); 
+
+        //Case 3
+        List<String> CustomerOrder=Arrays.asList("Laptop","Mouse");
+        boolean canFulfill=Inventory.containsAll(CustomerOrder);
+        System.out.println(canFulfill);
     }
 }
