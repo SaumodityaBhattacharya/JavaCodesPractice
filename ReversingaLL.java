@@ -49,3 +49,4 @@ public class Main {
         printList(head);
     }
 }
+//Or simply do Collections.reverse(list)
